@@ -1,0 +1,8 @@
+{
+  "aws": {
+    "region": "eu-west-1",
+    "userPoolId": "eu-west-1_WOTxpA8aT",
+    "appClientId": "4plslghpjvfmmnoeruv2db6t4c",
+    "identityPoolId": "eu-west-1:b5735747-6f94-4b31-ab41-24b881fa5004"
+  }
+}

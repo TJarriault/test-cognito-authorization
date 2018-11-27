@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <% include ./head %>
+</head>
+<body class="container">
+
+<header>
+    <% include ./header %>
+</header>
+
+<main>
+    <h1>Authenticated</h1>
+    <% if (data) { %>
+    Username: <%= data.username %><br/>
+    Téléphone: <%= data.telephone %><br/>
+    Email: <%= data.email %><br/>
+    <% } %>
+</main>
+
+</body>
+</html>

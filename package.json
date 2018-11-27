@@ -1,0 +1,25 @@
+{
+  "name": "test-cognito-authorization",
+  "version": "1.0.0",
+  "description": "Test authentication",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "amazon-cognito-identity-js": "^3.0.2",
+    "aws-sdk": "^2.334.0",
+    "body-parser": "^1.18.3",
+    "config": "^2.0.1",
+    "cookie-parser": "^1.4.3",
+    "ejs": "^2.6.1",
+    "express": "^4.16.4",
+    "jsonwebtoken": "^8.3.0",
+    "method-override": "^3.0.0",
+    "node-fetch": "^2.2.0",
+    "request": "^2.88.0"
+  }
+}
